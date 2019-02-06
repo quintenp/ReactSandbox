@@ -6,13 +6,20 @@
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title>React App</title>
+  <link rel="stylesheet" href='/css/bundle.css' />
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <h1>React Sandbox</h1>
-  <div id="root"></div>
+  <div class='jumbotron'>
+    <h1 class="alert alert-success">React Sandbox</h1>
+  </div>
 
+  <div id="root"></div>
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+  </div>
   <script src="/scripts/bundle.js"></script>
 </body>
+
 </html>
